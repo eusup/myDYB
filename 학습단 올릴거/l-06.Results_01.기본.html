@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학습단모듈</title>
+
+  <script src="./resource/js/jquery-3.3.1.min.js"></script>
+  <script src="./resource/js/style.js"></script>
+
+  <link rel="stylesheet" href="./resource/css/remixicon.css">
+  <link rel="stylesheet" href="./resource/css/module.css">
+  <link rel="stylesheet" href="./resource/css/style.css">
+  <link rel="stylesheet" href="./resource/css/responsive.css">
+</head>
+
+<body>
+  <div class="wrap listening result">
+    <div class="top">
+      <div class="con flex">
+        <div class="title">
+          <h2>LISTENING RESULT</h2>
+        </div>
+        <div class="flex util">
+          <button class="btn closed">창 닫기</button>
+        </div>
+      </div>
+    </div>
+    <div class="contents-wrap">
+      <div class="flex box">
+        <h3>
+          <img src="./resource/images/l-result-title.svg" alt="리스닝 결과">
+        </h3>
+        <div class="fill flex">
+          <div class="list-wrap">
+            <h4>학습시간</h4>
+            <div>
+              <ul>
+                <li>
+                  <p>Listening All</p>
+                  <p class="time">00:02</p>
+                </li>
+                <li>
+                  <p>Listening for Details</p>
+                  <p class="time">00:02</p>
+                </li>
+                <li>
+                  <p>Unscramble</p>
+                  <p class="time">00:02</p>
+                </li>
+                <li class="point">
+                  <p>Dictation</p>
+                  <p class="time">00:02</p>
+                </li>
+                <li>
+                  <p>Redictation</p>
+                  <p class="time">00:02</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fill flex data-wrap">
+            <h4 class="main-color">Dictation Result</h4>
+            <div class="fill table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="num">No</th>
+                    <th>작성답안</th>
+                    <th>정답</th>
+                    <th class="check">확인</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="correct">
+                    <td class="num">1</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td class="check"></td>
+                  </tr>
+                  <tr class="wrong">
+                    <td class="num">2</td>
+                    <td>text</td>
+                    <td>text</td>
+                    <td class="check"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="flex score">
+              <dl>
+                <dt>맞은 단어 / 총 단어</dt>
+                <dd class="flex">
+                  <span>6</span>
+                  <span>/</span>
+                  <span>10</span>
+                </dd>
+              </dl>
+              <dl>
+                <dt>Test 점수</dt>
+                <dd class="flex">
+                  <span>67점</span>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="btn-wrap">
+          <button class="btn white">Retest</button>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

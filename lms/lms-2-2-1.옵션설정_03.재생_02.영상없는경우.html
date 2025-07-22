@@ -1,0 +1,188 @@
+<div style="width:920px; height:600px;" class="pop_wrapper">
+    <div class="header">
+        <h1>Shadow Speaking</h1>
+    </div>
+    <div class="body">
+        <!-- 140123 수정 -->
+        <div class="summary_wrap" style="margin-top:-30px;">
+            <div class="summary">
+                <!-- 140123 수정 -->
+                <div class="dtable_txt" style="margin-bottom:0;">
+                    <div class="txt_left">
+                        <h2 class="h2"><b>학생이름</b>김최선 tr, E6 - Startup - 셔틀 월수금 17:00</h2>
+                    </div>
+                </div>
+                <!-- //140123 수정 -->
+                <div class="flex">
+
+                    <div>
+                        <input type="hidden" id="sFile"
+                            value="http://content.chungchy.com/VR_DATA/2025_03_test/dybmaster_115567/632125_choisun_dybtest_115567_30603_20250305081037.wav">
+                            <div class="video_wrap">
+                                <img src="https://content.chungchy.com/cc_content/19873/20250219132405_file_67b55ce57a27e.jpg" alt="#">
+                            </div>
+                        <div id="player1" style="width: 420px; height: 110px; overflow: hidden;">
+                            <div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img
+                                    id="jp_poster_0" style="width: 0px; height: 0px; display: none;"><audio
+                                    id="jp_audio_0" preload="metadata"
+                                    src="http://content.chungchy.com/VR_DATA/2025_03_test/dybmaster_115567/632125_choisun_dybtest_115567_30603_20250305081037.wav"></audio>
+                            </div>
+                            <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                                <div class="jp-type-single">
+                                    <div class="jp-gui jp-interface">
+                                        <div class="jp-controls">
+                                            <button class="jp-play" role="button" tabindex="0">play</button>
+                                            <button class="jp-stop" role="button" tabindex="0">stop</button>
+                                        </div>
+                                        <div class="jp-progress">
+                                            <div class="jp-seek-bar" style="width: 100%;">
+                                                <div class="jp-play-bar" style="overflow: hidden; width: 0%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="jp-volume-controls">
+                                            <button class="jp-mute" role="button" tabindex="0">mute</button>
+                                            <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                                            <div class="jp-volume-bar">
+                                                <div class="jp-volume-bar-value" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="jp-time-holder">
+                                            <div class="jp-current-time" role="timer" aria-label="time">00:00</div>
+                                            <div class="jp-duration" role="timer" aria-label="duration">-00:00</div>
+                                            <div class="jp-toggles">
+                                                <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="jp-details">
+                                        <div class="jp-title" aria-label="title">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="player2" style="width:420px;height:110px;overflow:hidden;display:none;">
+                            <object classid="clsid:6BF52A52-394A-11d3-B153-00C04F79FAA6" codebase="#Version=7,0,0,1954"
+                                pluginspage="http://www.microsoft.com/windows/windowsmedia/download"
+                                type="application/x-mplayer2"
+                                style="width:100%; height:110px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100,FinishOpacity=100,Style=2,StartX=0,FinishX=100,StartY=0,FinishY=100) alpha()">
+                                <param name="captioningID" value="webtv_subtitle">
+                                <param name="URL"
+                                    value="http://content.chungchy.com/VR_DATA/2025_03_test/dybmaster_115567/632125_choisun_dybtest_115567_30603_20250305081037.wav">
+                                <param name="autostart" value="0">
+                                <param name="showstatusbar" value="true">
+                                <param name="Volum" value="-1500">
+                            </object>
+                        </div>
+                    </div>
+                    <div class="script">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum distinctio nostrum voluptates
+                        beatae quis commodi! Rerum asperiores id velit repudiandae veritatis et dolores earum possimus
+                        facilis deleniti. Illum, tempore optio! Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Quo nemo voluptate inventore reiciendis distinctio ducimus at illum quis explicabo
+                        placeat, mollitia ratione ut vero iste quos ullam minus praesentium itaque!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary_wrap" id="funcNote">
+            <div class="summary">
+                <div class="dtable_desc">
+                    <div class="bubble_wrap">
+                        <div class="bubble">
+                            <div class="text">
+                                <strong>쪽지보내기</strong>
+                                <textarea id="memoContent" name="memoContent" rows="100" cols="100"
+                                    style="width:100%;height:100px;border:0;background:none;"></textarea>
+                                <div class="more">
+                                    <strong><span id="charCnt">0</span>/500 byte</strong>
+                                </div>
+                            </div>
+                            <span class="cap"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dtable_desc rec_player">
+                    <table class="layout">
+                        <colgroup>
+                            <col style="width:80px;">
+                            <col>
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="checkbox ver2">
+                                        <input type="checkbox">
+                                        <label>음성녹음</label>
+                                    </span>
+                                </td>
+                                <td>
+                                    <ul class="bbs_btn non_active">
+                                        <li><img alt="" src="/public_html/resource/images/common/icon/ico_rec.png">
+                                        </li>
+                                        <li><img alt="" src="/public_html/resource/images/common/icon/ico_stop.png">
+                                        </li>
+                                        <li><img alt="" src="/public_html/resource/images/common/icon/ico_rep.png">
+                                        </li>
+                                    </ul>
+                                    <ul class="bbs_btn active none">
+                                        <li><a href="#"><img alt=""
+                                                    src="/public_html/resource/images/common/icon/ico_rec_on.png"></a>
+                                        </li>
+                                        <li><a href="#"><img alt=""
+                                                    src="/public_html/resource/images/common/icon/ico_stop_on.png"></a>
+                                        </li>
+                                        <li><a href="#"><img alt=""
+                                                    src="/public_html/resource/images/common/icon/ico_rep_on.png"></a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="summary box_scroll" tabindex="0" style="max-height:260px;">
+                <div class="dtable_txt"><strong>보낸쪽지 보관함</strong></div>
+                <ul class="list_bubble">
+                    <li>
+                        <div class="bubble_wrap">
+                            <div class="bubble">
+                                <div class="text">
+                                    <p title="홀리스틱 테스트중" style="cursor: pointer;">홀리스틱 테스트중</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bubble_wrap">
+                            <div class="bubble">
+                                <div class="text">
+                                    <p title="숙제를 잘 하세요" style="cursor: pointer;">숙제를 잘 하세요</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="summary">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>보낸 날짜로부터<br>
+                                <em class="t_point">30일 이후 자동 삭제 됩니다.</em>
+                            </td>
+                            <td style="text-align:right;">
+                                <button class="btn_blue ver1" id="NoteSubmitBtn"><span>쪽지보내기</span></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- //140123 수정 -->
+    </div>
+</div>

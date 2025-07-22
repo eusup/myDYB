@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학습단모듈</title>
+
+  <script src="./resource/js/jquery-3.3.1.min.js"></script>
+  <script src="./resource/js/style.js"></script>
+
+  <link rel="stylesheet" href="./resource/css/remixicon.css">
+  <link rel="stylesheet" href="./resource/css/module.css">
+  <link rel="stylesheet" href="./resource/css/style.css">
+  <link rel="stylesheet" href="./resource/css/responsive.css">
+</head>
+
+<body>
+  <div class="wrap voca result">
+    <div class="top">
+      <div class="con flex">
+        <div class="title">
+          <h2>VOCA RESULT</h2>
+        </div>
+        <div class="flex util">
+          <button class="btn closed">창 닫기</button>
+        </div>
+      </div>
+    </div>
+    <div class="contents-wrap">
+      <div class="flex box">
+        <h3>
+          <img src="./resource/images/v-result-title.svg" alt="리스닝 결과">
+        </h3>
+        <div class="fill flex">
+          <div class="list-wrap">
+            <h4>학습시간</h4>
+            <div>
+              <ul>
+                <li>
+                  <p>Word Card Matching</p>
+                  <p class="time">4:14</p>
+                </li>
+                <li>
+                  <p>Word Check</p>
+                  <p class="time">99:99</p>
+                </li>
+                <li>
+                  <p>Word Test</p>
+                  <p class="time">00:31</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fill flex data-wrap">
+            <div class="flex fill">
+              <div class="fill table-wrap">
+                <table>
+                  <thead>
+                    <tr class="correct">
+                      <th class="title">정답</th>
+                      <th class="check"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="correct">
+                      <td>morning</td>
+                      <td>아침</td>
+                    </tr>
+                    <tr class="correct">
+                      <td>laundry</td>
+                      <td>빨랫감, 세탁물, 세탁소</td>
+                    </tr>
+                    <tr class="correct">
+                      <td>diligent</td>
+                      <td>성실한, 부지런한</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fill table-wrap">
+                <table>
+                  <thead>
+                    <tr class="wrong">
+                      <th class="title">오답</th>
+                      <th class="check"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="wrong">
+                      <td>neat</td>
+                      <td>단정한, 말쑥한</td>
+                    </tr>
+                    <tr class="wrong">
+                      <td>recipe</td>
+                      <td>조리법, 요리법</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="flex score">
+              <dl>
+                <dt>점수</dt>
+                <dd class="flex">
+                  <span>100점</span>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="btn-wrap">
+          <button class="btn white">Retest</button>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
