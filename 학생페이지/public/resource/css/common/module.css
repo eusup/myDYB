@@ -1748,6 +1748,7 @@ footer>.flex .copy {
 }
 
 .m-icn-menu.close {
+  position: fixed;
   transform: translateY(-50%);
   top: 50%;
   right: 20px;
