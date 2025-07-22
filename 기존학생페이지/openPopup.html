@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://www.dybstudy.com/public_html/resource/css/common/font.css">
+    <link rel="stylesheet" href="https://www.dybstudy.com/public_html/resource/css/common/base.css">
+    <link rel="stylesheet" href="https://www.dybstudy.com/public_html/resource/css/common/sub.css">
+    <link rel="stylesheet" href="https://www.dybstudy.com/public_html/resource/css/common/table.css">
+    <link rel="stylesheet" href="./public_html/resource/css/common/common.css">
+</head>
+
+<body>
+    <div id="wrap">
+
+        <!-- HEADER -->
+        <input type="hidden" id="iClassCode" name="iClassCode" value="115567">
+
+        <!-- 상담 시간 변동 임시 배너 -->
+        <div style="background: linear-gradient(to right, #fffdb9 50%, #fffbe6 50%);">
+            <div>
+                <img src="https://www.dybstudy.com/public_html/resource/images/common/20240205_banner.png">
+            </div>
+        </div>
+
+
+        <!-- header 시작 -->
+        <div id="header">
+
+            <!-- header-logo 포함 -->
+            <div>
+                <h1 class="logo">
+                    <!-- <a href="/main"><img src="/WebFile/images/elsd_logo/1526346239_elsd_cs.png" alt="" style="max-width:235px; max-height:80px;"></a> -->
+                </h1>
+
+                <div class="header-cont">
+                    <div class="photo-wrap">
+                        <div class="mask"></div>
+                        <div class="photo"><img
+                                src="https://www.dybstudy.com/public_html/resource/images/common/photo.png" alt="프로필사진"
+                                style="width:49px; height:49px;"></div>
+                    </div>
+                    <div class="profile">
+                        <h2 class="ellipsis">차길동ab1</h2>
+                        <a href="/Mypage/Myinfo/myinfo">내 정보 보기</a>
+                    </div>
+                    <div class="message">
+                        <a href="#" class="spr-com" title="쪽지" id="btnMemoOpen">
+                            <div class="message-count">
+                                <span>0</span>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="/Payment/payment" class="icn_pay md-indent" title="온라인 영어학습 결제하기">결제하기</a>
+                    <a href="/Member/login/logoutAction" class="spr-com logout md-indent" title="로그아웃">로그아웃</a>
+                </div>
+            </div>
+            <!-- //header-logo 포함 -->
+        </div>
+        <!-- //header -->
+
+        <!-- nav -->
+        <div id="nav">
+            <ul>
+                <li>
+                    <a href="/main">오늘의 학습</a>
+                    <a href="/Learninghistory/historylists">학습이력</a>
+                    <a href="/Mypage/Myinfo/myinfo" class="nav-act">마이페이지</a>
+                    <a href="/Help/Notice/notice">고객센터</a>
+                    <a href="#" class="remote" data-role="btnQuickRemote">원격지원</a>
+                </li>
+            </ul>
+        </div>
+        <!-- //nav -->
+
+        <!-- SNB -->
+
+        <!-- QUICK -->
+        <style>
+            .elsd-pay {
+                /* position: absolute; */
+                display: block;
+                left: -15px;
+                bottom: -190px;
+                animation: pay .5s linear 1s infinite alternate;
+            }
+        </style>
+        <div id="quick-menu">
+            <ul>
+                <li class="quick-elsd">
+                    이용기간
+                    <span>D - 322</span>
+                    <em data-role="usePeriodText">(2024-12-10 ~ <br>2026-06-01)</em>
+                </li>
+                <!-- li><a href="#" class="quick-chat"><span class="spr-com"></span>채팅하기</a></li -->
+                <li><a href="#" class="quick-remote" data-role="btnQuickRemote"><span class="spr-com"></span>원격지원 신청</a>
+                </li>
+                <!-- <li><a href="/Help/Mtom/mtom" class="quick-question"><span class="spr-com"></span><span class="question-2row">1:1 문의하기<br />1688-9908</span></a></li> -->
+                <li><a href="/Help/Notice/notice" class="quick-notice"><span class="spr-com"></span>공지사항</a></li>
+                <li><a href="#" class="quick-top">TOP ▲</a></li>
+            </ul>
+            <img src="https://www.dybstudy.com/public_html/resource/images/common/tel_info_03.png">
+            <img src="https://www.dybstudy.com/public_html/resource/images/common/tel_info_05.png">
+            <a href="/Payment/payment" class="elsd-pay"><img
+                    src="https://www.dybstudy.com/public_html/resource/images/common/payment.png"></a>
+        </div>
+
+        <!-- CONTENT -->
+        <div id="content-wrap">
+            <div id="title">
+                <h1><span>내 정보</span></h1>
+                <div class="bread">
+                    <a href="#" class="spr-sub md-indent">home</a>
+                    <span class="spr-sub"></span>
+                    <a href="#" class="bread-mid">마이페이지</a>
+                    <span class="spr-sub"></span>
+                    <a href="#" class="bread-last">내 정보</a>
+                </div>
+                <hr>
+            </div>
+
+            <div id="my-tab">
+                <div class="sub-left">
+                    <ul class="left-menu">
+                        <li><a href="#" class="left-act">내 정보</a></li>
+                        <li><a href="/Mypage/Point/point">포인트/랭킹</a></li>
+                        <li><a href="/Mypage/Payment/payment">결제 정보</a></li>
+                    </ul>
+                </div>
+                <div class="sub-right">
+                    <!-- 테이블 -->
+                    <table class="my-table">
+                        <colgroup>
+                            <col style="width: 151px;">
+                            <col style="width: 593px;">
+                        </colgroup>
+                        <tbody>
+                            <tr class="my-profile">
+                                <th>프로필 사진</th>
+                                <td>
+                                    <div class="pf-relative">
+                                        <div class="my-pf-layer"></div>
+                                        <img src="https://www.dybstudy.com/public_html/resource/images/common/photo.png"
+                                            style="width:123px; height:123px;" alt="프로필사진">
+                                    </div>
+                                    <div class="pf-btn-wrap">
+                                        <a href="#" class="blue-line" id="btnPhotoChange">사진변경</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>이름</th>
+                                <td>차길동ab1</td>
+                            </tr>
+                            <tr>
+                                <th>아이디</th>
+                                <td>dybtest</td>
+                            </tr>
+                            <tr>
+                                <th>캠퍼스/학급</th>
+                                <td>임시캠퍼스 / 김최선 tr, E6 - Startup - 셔틀 월수금 17:00</td>
+                            </tr>
+                            <tr>
+                                <th>휴대폰</th>
+                                <td>
+                                    <input type="text" id="studentPhone1" name="studentPhone1" value="010"> -
+                                    <input type="text" id="studentPhone2" name="studentPhone2" value="7231"> -
+                                    <input type="text" id="studentPhone3" name="studentPhone3" value="8702">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>부모님 휴대폰</th>
+                                <td>
+                                    <input type="text" id="parentPhone1" name="parentPhone1" value="010"> -
+                                    <input type="text" id="parentPhone2" name="parentPhone2" value="7231"> -
+                                    <input type="text" id="parentPhone3" name="parentPhone3" value="8702">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>비밀번호</th>
+                                <td>
+                                    <a href="#;return false;" class="blue-line" id="changePwBtn">비밀번호 변경</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- //테이블 -->
+
+                    <div class="my-btn-wrap">
+                        <a href="#;return false;" class="darkgray" id="changeMyInfoBtn">정보 수정하기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <!-- top botton -->
+        <div id="top-arrow">
+            <div>
+                <a href="#" class="md-indent">위로 이동</a>
+            </div>
+        </div>
+        <!-- //top botton -->
+
+        <!-- footer -->
+        <div id="footer">
+            <div>
+                <div class="footer-link">
+                    <!-- <a href="#">PC 설정 도우미</a> -->
+                    <a href="/Help/Mtom/mtom">1:1 문의하기</a>
+                    <a href="https://content.chungchy.com/data/ELSD/utils/choisun_manual.pdf" target="_blank">학습 매뉴얼</a>
+                </div>
+                <div class="footer">
+                    <span>고객만족센터</span>
+                    <div>
+                        <h1>1688-9908</h1>
+                        <div class="operating-time">
+                            <!-- 6월 23일 이후 적용 -->
+                            <div>평일 13:00 ~ 19:00</div>
+                        </div>
+                    </div>
+                    <p><strong>에스이씨 &nbsp; 대표 : 송오현 </strong>&nbsp; 주소 : 서울특별시 강남구 삼성로 150 한보미도상가 203-2호 DYB교육 &nbsp;
+                        사업자등록번호 : 120-11-18402<br>
+                        통신판매업신고번호 : 제2011-서울강남-03428호 &nbsp; 정보관리 책임자 : 차석환
+                    </p>
+                </div>
+
+                <div id="copy">
+                    <!-- COPYRIGHT@학원이름.ALL RIGHT RESERVED -->
+                    COPYRIGHT ⓒ DYB최선어학원 ALL RIGHT RESERVED 3
+                </div>
+            </div>
+        </div>
+        <!-- //footer -->
+
+    </div>
+    <div class="bModal __layerpopup1"
+        style="background-color: rgb(0, 0, 0); height: 100%; left: 0px; opacity: 0.8; position: fixed; top: 0px; width: 100%; z-index: 9998; overflow: hidden; cursor: pointer;">
+    </div>
+
+    <!-- 리뉴얼 오픈 팝업 인라인 요소 없이 부탁드립니다. 만약 다른 팝업처럼 인라인 요소가 들어가야한다면 338px로 부탁드립니다.-->
+    <div class="openPop">
+        <div class="openPop-top">
+            <img src="/public_html/resource/images/common/opentop-title.svg" alt="홀리스틱 잉글리시, 이렇게 달라졌어요!">
+        </div>
+        <div class="openPop-wrap">
+            <img src="/public_html/resource/images/common/openInner-img.svg" alt="#">
+            <div class="text">
+                <b>새로워진 학습</b> 화면과 <b>기능</b>들을<br>영상으로 먼저 만나보세요!
+            </div>
+            <a class="pill-btn" href="#">튜토리얼 영상 보러가기</a>
+        </div>
+        <div class="btn-wrap">
+            <button>오늘하루 보지않기</button>
+            <button class="tsClose">닫기</button>
+        </div>
+    </div>
+</body>
+
+</html>

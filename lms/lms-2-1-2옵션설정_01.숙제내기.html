@@ -1,0 +1,279 @@
+<div class="pop_wrapper">
+    <div class="header">
+        <h1>김최선 tr, E1 - Descartes - 월수금 00:00 학급 옵션 설정</h1>
+    </div>
+    <div class="body">
+        <table class="list_tab">
+            <tbody>
+                <tr>
+                    <td data-type="hw_option_L" class="active"><a
+                            href="/Learningmanagement/Assignment/optionlists?sType=hw_option_L&amp;sClassCode=111150&amp;sLocation=calendar">Listening</a>
+                    </td>
+                    <td data-type="hw_option_S"><a
+                            href="/Learningmanagement/Assignment/optionlists?sType=hw_option_S&amp;sClassCode=111150&amp;sLocation=calendar">Speaking</a>
+                    </td>
+                    <td data-type="hw_option_V_new"><a
+                            href="/Learningmanagement/Assignment/optionlists?sType=hw_option_V_new&amp;vType=uccvoca&amp;sClassCode=111150&amp;sLocation=calendar">Voca</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div id="main">
+            <form name="theForm">
+                <input type="hidden" name="sLocation" id="sLocation" value="calendar">
+                <input type="hidden" name="sApply" id="sApply" value="">
+
+                <input type="hidden" name="sClassCode" id="sClassCode" value="111150">
+                <input type="hidden" name="sTotalStep" id="sTotalStep">
+
+                <div class="float_wrap bor">
+                    <div class="conLeft" style="width:35%;">
+                        <table class="inputA step">
+                            <thead>
+                                <tr>
+                                    <th scope="col" colspan="2">기본설정</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>예습허용</td>
+                                    <td>
+                                        <select name="sel_common_prep_eum" id="sel_common_prep_eum">
+                                            <option value="1" selected="">예습제출 허용</option>
+                                            <option value="0">예습제출 미허용</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="checkbox99" id="checkbox99" value="" checked="checked">
+                                            <label for="checkbox99" class="active">MP3 재생 속도 조절 허용</label>
+                                        </span>MP3 재생 속도 조절 허용
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="conRight" style="width:65%;">
+                        <table class="inputA step">
+                            <thead>
+                                <tr>
+                                    <th scope="col">학습 단계별 설정</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="step" id="LA" value="LA" checked="checked">
+                                            <label for="LA" class="fixed">Step1: Listening All (지문 전체 듣기)</label>
+                                        </span> Step1: Listening All (지문 전체 듣기)
+                                        <table class="layout">
+                                            <colgroup>
+                                                <col style="width:150px;">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;듣기횟수</td>
+                                                    <td>
+                                                        <select name="sel_la_repeat_count" id="sel_la_repeat_count">
+                                                            <option value="1" selected="">1회</option>
+                                                            <option value="2">2회</option>
+                                                            <option value="3">3회</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="step" id="LF" value="LF" checked="checked">
+                                            <label for="LF" class="fixed">Step2 : Listen for Details (문장 정확히
+                                                듣기)</label>
+                                        </span> Step2 : Listen for Details (문장 정확히 듣기)
+                                        <table class="layout">
+                                            <colgroup>
+                                                <col style="width:150px;">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문제 난이도
+                                                    </td>
+                                                    <td>
+                                                        <span class="radio">
+                                                            <input type="radio" name="new_radio01" id="radio_name01"
+                                                                value="0" checked="checked">
+                                                            <label for="radio_name01" class="active">Beginner</label>
+                                                        </span>
+                                                        <span class="radio">
+                                                            <input type="radio" name="new_radio01" id="radio_name02"
+                                                                value="1">
+                                                            <label for="radio_name02" class="">Advanced</label>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제한 시간</td>
+                                                    <td>
+                                                        <div class="margin-b"><span>LV1</span>
+                                                            <select name="sel_lf_limit_time_level2"
+                                                                id="sel_lf_limit_time_level1">
+                                                                <option value="10" selected="">10초</option>
+                                                                <option value="20">20초</option>
+                                                                <option value="30">30초</option>
+
+
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="margin-b"><span>LV2</span>
+                                                            <select name="sel_lf_limit_time_level2"
+                                                                id="sel_lf_limit_time_level2">
+                                                                <option value="10" selected="">10초</option>
+                                                                <option value="20">20초</option>
+                                                                <option value="30">30초</option>
+
+
+                                                            </select>
+                                                        </div>
+                                                        <div class="margin-b"><span>LV3</span>
+                                                            <select name="sel_lf_limit_time_level2"
+                                                                id="sel_lf_limit_time_level3">
+                                                                <option value="10" selected="">10초</option>
+                                                                <option value="20">20초</option>
+                                                                <option value="30">30초</option>
+
+
+                                                            </select>
+                                                        </div>
+                                                        <span>※ 학생들의 레벨에 따라 제한 시간을 다르게 설정할 수 있습니다.</span>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="step" id="UN" value="UN" checked="checked">
+                                            <label for="UN" class="fixed">Step3 : Unscramble (단어 순서 맞춰 문장완성)</label>
+                                        </span> Step3 : Unscramble (단어 순서 맞춰 문장완성)
+                                        <table class="layout">
+                                            <colgroup>
+                                                <col style="width:150px;">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문제 난이도
+                                                    </td>
+                                                    <td>
+                                                        <span class="radio">
+                                                            <input type="radio" name="new_radio02" id="radio_name03"
+                                                                value="0" checked="checked">
+                                                            <label for="radio_name03" class="active">Beginner</label>
+                                                        </span>
+                                                        <span class="radio">
+                                                            <input type="radio" name="new_radio02" id="radio_name04"
+                                                                value="1">
+                                                            <label for="radio_name04" class="">Advanced</label>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제한시간</td>
+                                                    <td>
+                                                        <select name="sel_un_limit_time" id="sel_un_limit_time">
+                                                            <option value="60" selected="">60초</option>
+                                                            <option value="90">90초</option>
+                                                            <option value="120">120초</option>
+                                                            <option value="150">150초</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="step" id="DI" value="DI" checked="checked">
+                                            <label for="DI" class="active">Step4 : Dictation (단어 받아적어 문장완성)</label>
+                                        </span> Step4 : Dictation (단어 받아적어 문장완성) <br>※ 해당 단계를 선택하지 않으면, 획득점수에 대한 포인트 적립
+                                        및 History 그래프 확인이 불가합니다.
+                                        <table class="layout">
+                                            <colgroup>
+                                                <col style="width:150px;">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제출 제한 점수</td><!-- limit_EUM -->
+                                                    <td>
+                                                        <select name="sel_di_score_pass" id="sel_di_score_pass">
+                                                            <option value="10" selected="">10점</option>
+                                                            <option value="20">20점</option>
+                                                            <option value="30">30점</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>문장 완성 방식
+
+                                                    </td><!-- HINT_EUM -->
+                                                    <td>
+                                                        <span class="radio">
+                                                            <input type="radio" name="new_radio03" id="radio_name05"
+                                                                value="1" checked="checked">
+                                                            <label for="new_radio05" class="active">철자 선택</label>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="confirm" style="display: none;">선택하신 옵션설정을 적용하시겠습니까?</div>
+                <div id="confirm2" style="display: none;">
+                    <span class="radio">
+                        <input type="radio" name="applyType" id="applyType1" checked="checked" value="1">
+                        <label class="active">김최선 tr, E1 - Descartes - 월수금 00:00 학급만 옵션 변경</label>
+                    </span>
+                    <span class="radio">
+                        <input type="radio" name="applyType" id="applyType2" value="2">
+                        <label>선택된 모든 숙제대상의 학급 옵션 변경</label>
+                    </span>
+                    <span class="radio">
+                        <input type="radio" name="applyType" id="applyType2" value="3">
+                        <label>전체학급 옵션 변경</label>
+                    </span> &nbsp;
+                </div>
+
+            </form>
+        </div>
+
+        <div class="btn_wrap">
+            <div class="btn_right">
+                <button class="btn_blue ver1" name="regist" id="regist"><span>적용</span></button>
+                <button class="btn_blue ver2 close" name="cancel" id="cancel"><span>취소</span></button>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="close"><img alt="" src="/public_html/resource/images/common/btn_close.png"></a>
+</div>

@@ -1,0 +1,2202 @@
+@media screen and (max-width : 1600px) {
+    .rel-scroll ul li button {
+        font-size: 2.4rem;
+    }
+
+    .voca.step06 .option .info,
+    .voca.step06 .option ul {
+        margin-bottom: 18px;
+    }
+
+    .voca.step06 .option .word-box {
+        padding: 18px;
+    }
+
+    .voca.step06 .option .word-box div p.caption {
+        font-size: 1.6rem;
+    }
+
+    .voca.step06 .option .word-box div p.word {
+        font-size: 2.4rem;
+    }
+
+    .voca.step06 .option .word-box div p.description {
+        font-size: 1.6rem;
+    }
+
+    .voca.step06 .option .word-box button {
+        font-size: 2rem;
+        width: 126px;
+    }
+
+    .voca.step06 .option .info p.info-text,
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .system-info {
+        font-size: 1.8rem;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .conv .thumb {
+        width: 42px;
+        height: 42px;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .conv p {
+        padding: 10px;
+        font-size: 2rem;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .btn-wrap .btn {
+        font-size: 2rem;
+    }
+
+    .voca.step06 .question-wrap .input-wrap label input {
+        padding: 12px 20px;
+        font-size: 1.8rem;
+    }
+
+    .voca.step06 .question-wrap .input-wrap label .send {
+        width: 54px;
+        height: 54px;
+    }
+
+    .voca.step06 .option ul {
+        height: 200px;
+    }
+
+    .voca.step06 .option ul li .btn {
+        padding: 14px;
+        font-size: 2rem;
+        background-size: 20px;
+
+        &:has(input:checked) {
+            background-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width : 1366px) {
+    :root {
+        --gap: 20px;
+        --padding: 20px;
+        --radius: 20px;
+        --font-size13: 10.2rem;
+        --font-size12: 9.6rem;
+        --font-size11: 8.4rem;
+        --font-size10: 7.4rem;
+        --font-size9: 6.4rem;
+        --font-size8: 5.4rem;
+        --font-size7: 4.2rem;
+        --font-size6: 3.6rem;
+        --font-size5: 2.8rem;
+        --font-size4-5: 2.4rem;
+        --font-size4: 1.8rem;
+        --font-size3: 1.6rem;
+        --font-size2: 1.4rem;
+        --font-size1: 1.3rem;
+    }
+
+    .top .con {
+        padding: 20px;
+    }
+
+    .box {
+        width: calc(100% - 40px);
+    }
+
+    .top h2 {
+        font-size: var(--font-size4);
+    }
+
+    .top .breadcurmb li {
+        min-width: 28px;
+        height: 28px;
+        padding: 0;
+        font-size: var(--font-size2);
+
+        &:not(:first-child)::before {
+            left: -10px;
+            width: 10px;
+        }
+
+        &.act {
+            padding: 4px 12px;
+        }
+    }
+
+    .history .box .con .top .title {
+        font-size: 1.8rem;
+    }
+
+    .history .box .con .top .title b {
+        font-size: 2.4rem;
+    }
+
+    .history .box .con .top .btn {
+        font-size: 1.8rem;
+
+        & img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .wrap.intro {
+        padding: 50px;
+        font-size: 1.8rem;
+    }
+
+    .wrap.intro img {
+        max-height: 100px;
+    }
+
+    .wrap.intro .inner::before {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .wrap.intro .bottom {
+        font-size: 1.8rem;
+    }
+
+    .wrap.intro .bottom .progress-bar {
+        max-width: calc(100% - 30vw);
+    }
+
+    .wrap.intro .bottom .btn-wrap .btn {
+        width: 200px;
+        font-size: 2.6rem;
+    }
+
+    .wrap.intro .btn.closed {
+        top: 0;
+        right: 0;
+    }
+
+    .switch {
+        padding: 2px;
+    }
+
+    .switch label span {
+        padding: 8px 12px;
+        font-size: 1.6rem;
+    }
+
+    .btn.closed {
+        width: 48px;
+        height: 48px;
+        padding: 0;
+        background-size: 48px;
+    }
+
+    .btn.prev-q,
+    .btn.next-q {
+        width: 48px;
+        height: 48px;
+
+        & img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    .btn.prev-q {
+        left: 0;
+    }
+
+    .btn.next-q {
+        right: 0;
+    }
+
+    .rel-scroll ul li button {
+        border-radius: 10px;
+    }
+
+    .history .box .con .grade {
+        font-size: 1.6rem;
+    }
+
+    .question-wrap li button.white {
+        border-radius: 20px;
+        font-size: 2.4rem;
+    }
+
+    .rage-wrap {
+        padding: 4px;
+    }
+
+    .rage-wrap .range {
+        height: 4px;
+    }
+
+    .indicator .timer img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .indicator {
+        font-size: var(--font-size3);
+    }
+
+    .pill-wrap ul {
+        gap: 8px;
+    }
+
+    .pill-wrap ul li {
+        min-width: 80px;
+        height: 56px;
+        line-height: 1;
+        padding: 14px 20px;
+        box-shadow: inset 3px 3px 6px var(--color-shadow);
+
+        &.wrong {
+            box-shadow: inset 2px 2px 3px var(--color-shadow-red), 0px 2px 4px var(--color-shadow);
+        }
+
+        &.correct {
+            box-shadow: 0px 2px 4px var(--color-shadow);
+        }
+
+        & input {
+            padding: 12px 18px;
+        }
+
+        &.dot {
+            line-height: 42px;
+            padding: 0;
+        }
+    }
+
+    .pill-wrap li.next .hint {
+        bottom: calc(100% + 16px);
+        padding: 12px 20px;
+
+        &::before {
+            bottom: -6px;
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .indicator .ellipse-text .num {
+        width: 20px;
+        height: 20px;
+        font-size: 1.4rem;
+    }
+
+    .con.bottom .btn-wrap .btn.icn-only {
+        width: 52px;
+        height: 52px;
+        background-size: 34px;
+    }
+
+    .con.bottom .btn-wrap .speed {
+        height: 52px;
+        font-size: var(--font-size4);
+    }
+
+    .con.bottom .btn-wrap .speed span {
+        width: 34px;
+    }
+
+    .con.bottom .btn-wrap .speed .btn.icn-only {
+        width: 28px;
+        height: 28px;
+
+        & img {
+            width: 22px;
+            height: 22px;
+        }
+    }
+
+    .btn.next {
+        height: 52px;
+        padding: 0 20px;
+        padding-left: 26px;
+        font-size: var(--font-size4);
+    }
+
+    .btn.next img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .audio-range {
+        width: 360px;
+        height: 360px;
+    }
+
+    .bottom .btn-wrap .next::before {
+        left: 0;
+    }
+
+    .bottom .btn-wrap .next::after {
+        top: -20px;
+    }
+
+    .result .box h3 img {
+        height: 36px;
+    }
+
+    .result .box {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .result .box h4 {
+        font-size: var(--font-size4);
+    }
+
+    .result .box:has(.data-wrap) .list-wrap {
+        max-width: 240px;
+    }
+
+    .result .box .list-wrap ul {
+        gap: 8px;
+    }
+
+    .result .box .list-wrap>div ul li {
+        display: block;
+        align-content: center;
+        padding: 18px;
+        border-radius: 10px;
+    }
+
+    .result .box .data-wrap .table-wrap table tr {
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .result .box .data-wrap :where(th, td) {
+        background-size: 28px;
+
+        &.num {
+            width: 30px;
+        }
+
+        &.check {
+            width: 28px;
+        }
+    }
+
+    .result .box .score {
+        padding: 22px 18px;
+    }
+
+    .result .box .score dl {
+        gap: 6PX;
+        font-size: 2.4rem;
+    }
+
+    .result .box .score dl dt {
+        font-size: var(--font-size3);
+    }
+
+    .result .box>.btn-wrap .btn {
+        max-width: 110px;
+        padding: 16px 24px;
+        font-size: 1.8rem;
+    }
+
+    .dimmed .popup.result>div:not(.effect) {
+        transform: translate(-50%, -50%);
+        top: 45%;
+        width: 350px;
+        height: 350px;
+    }
+
+    .dimmed .popup.result>div.effect {
+        top: 45%;
+    }
+
+    .dimmed .popup.alert {
+        font-size: 1.6rem;
+    }
+
+    .dimmed .alert p {
+        font-size: 2rem;
+    }
+
+    .dimmed .popup>.btn-wrap {
+        margin-top: 18px;
+    }
+
+    .dimmed .popup>.btn-wrap .btn {
+        font-size: 1.8rem;
+        padding: 14px 24px;
+    }
+
+    .dimmed .result .btn-wrap .next {
+        padding: 12px 26px;
+        padding-left: 30px;
+    }
+
+    .dimmed .result .btn-wrap .next img {
+        width: 24px;
+        height: 24px;
+    }
+
+    @keyframes popup-result-elipse {
+        0% {
+            width: 350px;
+            height: 350px;
+        }
+
+        100% {
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    .dimmed .result img.chara {
+        width: 240px;
+        height: 240px;
+    }
+
+    .listening.step02.type02 .question-wrap {
+        gap: 0;
+        font-size: var(--font-size6);
+        align-content: center;
+    }
+
+    .listening.step02.type02 .question-wrap .blank {
+        border-bottom: 4px solid var(--color-font);
+    }
+
+    .listening.step02.type02 .answer-wrap {
+        height: auto;
+    }
+
+    .listening.step02.type02 .answer-wrap .btn {
+        font-size: var(--font-size5);
+    }
+
+    .listening.step03 .video-wrap {
+        height: 100%;
+    }
+
+    .speaking .btn.audio {
+        width: 48px;
+        height: 48px;
+    }
+
+    .speaking.step01 .dictionary {
+        max-width: 320px;
+        height: 168px;
+        padding: 12px;
+        font-size: 1.8rem;
+    }
+
+    .speaking.step01 .dictionary>p {
+        margin-bottom: 8px;
+    }
+
+    .speaking.step01 .dictionary .small {
+        font-size: 1.6rem;
+    }
+
+    .speaking.step01 .dictionary .word {
+        font-size: 2.4rem;
+    }
+
+    .speaking.step01 .dictionary ul li span:first-child {
+        font-size: 1.4rem;
+    }
+
+    .speaking.step01 .dictionary .closed {
+        width: 26px;
+        height: 26px;
+    }
+
+    .speaking .scroll-script {
+        font-size: var(--font-size4-5);
+    }
+
+    .speaking.step02 .scroll-script .script {
+        top: calc(var(--padding) + 48px);
+        height: calc(100% - (var(--padding)*2) - 48px);
+    }
+
+    .speaking .scroll-script .script>li {
+        margin-bottom: 15px;
+    }
+
+    .speaking.step02 .recording-wrap {
+        align-items: flex-start;
+    }
+
+    .speaking.step02 .recording-wrap>div.video {
+        max-width: 380px;
+    }
+
+    .speaking.step02 .abs-score {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .speaking.step02 .abs-score div,
+    .speaking.step02 .abs-score ul {
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    .speaking.step02 .abs-score div {
+        gap: 4px;
+    }
+
+    .speaking.step02 .abs-score div p.num {
+        font-size: 3.2rem;
+    }
+
+    .speaking.step02 .abs-score ul {
+        gap: 6px;
+    }
+
+    .speaking.step02 .abs-score ul li {
+        margin-bottom: 0;
+        width: inherit;
+        min-width: inherit;
+        padding: 0;
+        white-space: pre;
+        opacity: 0.4;
+        font-weight: 400;
+
+        &.act {
+            opacity: 1;
+            font-weight: 700;
+        }
+
+        &.act.green {
+            color: #4DC762;
+            background: inherit;
+        }
+
+        &.act.blue {
+            color: #3F95FF;
+            background: inherit;
+        }
+
+        &.act.orange {
+            color: #FF9E2F;
+            background: inherit;
+        }
+    }
+
+    .speaking.result .img-wrap img {
+        width: 150px;
+    }
+
+    .speaking.result .box .data-wrap .table-wrap table {
+        height: 100%;
+    }
+
+    .speaking.result .box .data-wrap .table-wrap table tbody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .speaking.result .box .data-wrap .table-wrap table tbody tr th,
+    .speaking.result .box .data-wrap .table-wrap table tbody tr td {
+        height: auto;
+    }
+
+    .btn-wrap .rec-wrap {
+        min-width: 52px;
+        height: 52px;
+    }
+
+    .btn-wrap .rec-wrap .btn .icn-wrap img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .btn-wrap .btn.save {
+        height: 52px;
+    }
+
+    .voca .bottom .btn-wrap .white {
+        padding: 14px 20px;
+        font-size: 1.8rem;
+    }
+
+    .voca .bottom .btn .num {
+        width: 24px;
+        height: 24px;
+        font-size: 1.4rem;
+    }
+
+    .voca label {
+        border-radius: 10px;
+        box-shadow: inset 2px 2px 3px var(--color-shadow), 3px 3px 5px var(--color-shadow), 3px -3px 4px var(--color-white60);
+    }
+
+    .voca label input[type=text] {
+        height: 50px;
+        padding: 16px;
+        padding-right: 0;
+        font-size: 1.8rem;
+    }
+
+    .voca .send {
+        width: 50px;
+        height: 50px;
+    }
+
+    .voca.step01 .card-wrap li .btn .card-cover::before {
+        width: 72px;
+        height: 72px;
+    }
+
+    .voca.step01 .card-wrap li .btn span {
+        height: 36px;
+        line-height: 23.4px;
+        font-size: 1.8rem;
+    }
+
+    .voca.step02 .question-wrap .question-scroll .description {
+        font-size: var(--font-size5);
+    }
+
+    .voca.step02 .question-wrap .sentence {
+        font-size: var(--font-size4);
+    }
+
+    .voca.step03 .question-wrap .question-scroll .sentence {
+        font-size: 2.4rem;
+    }
+
+    .voca.step03 .question-wrap .question-scroll .sentence .ko {
+        margin-top: 6px;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .system-info {
+        justify-content: center;
+        color: var(--color-font-gray);
+
+        & b {
+            color: var(--color-font-gray);
+        }
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .system-info p {
+        flex-shrink: 1;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .system-info::before,
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .system-info::after {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 1280px) {
+
+    .speaking .btn-wrap .pass {
+        gap: 4px;
+        height: 52px;
+        padding: 0 12px;
+        padding-left: 20px;
+        font-size: 1.8rem;
+    }
+
+    .btn-wrap .pass span {
+        font-size: 1.4rem;
+    }
+
+    .voca.step01.result .box .data-wrap>.fill {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .voca.step04 .question-wrap .question-scroll .description {
+        font-size: 2.4rem;
+    }
+
+    .voca.step05 .hint-area ul li {
+        margin-bottom: 24px;
+    }
+
+    .voca.step05 .hint-area span {
+        width: 110px;
+    }
+
+    .voca.step06 .option {
+        width: 360px;
+    }
+
+    .dimmed .popup.loarding {
+        font-size: 2.8rem;
+    }
+
+    .dimmed .popup.loarding .loarding-wrap {
+        width: 80px;
+        height: 80px;
+    }
+
+    .dimmed .popup.loarding .loarding-wrap span {
+        width: 40px;
+        height: 55px;
+        border-radius: 6px;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    .speaking.step04 .video.rec {
+        width: 460px;
+        height: 259px;
+    }
+
+    .voca.step01 .card-wrap li .btn span {
+        height: 32px;
+        line-height: 20.8px;
+        font-size: 1.6rem;
+    }
+
+    .voca.step03.type03 .question-wrap .question-scroll {
+        font-size: 3.6rem;
+    }
+
+    .voca.step03.type03 .con.fill .question-wrap .question-scroll>div+span {
+        font-size: 2.8rem;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .conv p,
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .system-info,
+    .voca.step06 .option ul li .btn {
+        font-size: 1.6rem;
+    }
+
+    .voca.step06 .option .word-box div p.caption {
+        font-size: 1.4rem;
+    }
+
+    .voca.step06 .option .word-box button,
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .btn-wrap .btn {
+        font-size: 1.8rem;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .conv .thumb {
+        width: 36px;
+        height: 36px;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .btn-wrap {
+        gap: 6px;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .btn-wrap .btn {
+        padding: 14px 20px;
+    }
+
+    .dimmed .alert p {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    :root {
+        --gap: 10px;
+        --padding: 10px;
+        --radius: 10px;
+
+        --font-size13: 9.6rem;
+        --font-size12: 8.4rem;
+        --font-size11: 7.4rem;
+        --font-size10: 6.4rem;
+        --font-size9: 5.4rem;
+        --font-size8: 4.2rem;
+        --font-size7: 3.6rem;
+        --font-size6: 2.8rem;
+        --font-size5: 2.4rem;
+        --font-size4-5: 1.8rem;
+        --font-size4: 1.6rem;
+        --font-size3: 1.4rem;
+        --font-size2: 1.3rem;
+        --font-size1: 1.2rem;
+    }
+
+    .top {
+        font-size: 1.3rem;
+    }
+
+    .top .con {
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .top h2 {
+        margin-bottom: 6px;
+        font-size: var(--font-size4-5);
+    }
+
+    .wrap .top .info-text {
+        margin-top: 0;
+    }
+
+    .wrap .top .info-text {
+        padding-left: 0;
+    }
+
+    .top .info-text {
+        padding: 0;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .top .btn.closed {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .top .util {
+        width: 100%;
+    }
+
+    .top .util .breadcurmb {
+        justify-content: space-between;
+        width: 100%;
+        text-indent: -999px;
+        overflow: hidden;
+    }
+
+    .top .breadcurmb li {
+        width: 12px;
+        min-width: 0;
+        height: 12px;
+
+        &.act {
+            padding: 0;
+        }
+
+        &.act~li {
+            background-color: var(--color-main15);
+        }
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .switch label span {
+        padding: 4px 8px;
+        font-size: 1.3rem;
+    }
+
+    .video {
+        height: 100%;
+        flex-shrink: 1;
+    }
+
+    .video .btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    .box {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .indicator {
+        gap: 12px;
+        font-size: 1.4rem;
+    }
+
+    .indicator .timer {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .indicator .page span {
+        width: 20px;
+    }
+
+    .indicator .ellipse-text {
+        padding: 6px 12px;
+        padding-right: 6px;
+    }
+
+    .rage-wrap .range .ball {
+        width: 100%;
+    }
+
+    .box .con.bottom .btn-wrap {
+        justify-content: flex-start;
+        gap: 6px;
+    }
+
+    .con.bottom .btn-wrap .btn.icn-only {
+        width: 42px;
+        height: 42px;
+        background-size: 28px;
+    }
+
+    .con.bottom .btn-wrap .speed {
+        height: 42px;
+        padding: 0px 8px;
+    }
+
+    .con.bottom .btn-wrap .speed span {
+        font-size: 1.4rem;
+    }
+
+    .btn.next {
+        height: 52px;
+        padding: 0px 12px;
+        padding-left: 20px;
+        font-size: 1.8rem;
+    }
+
+    .bottom .btn-wrap .next::before,
+    .bottom .btn-wrap .next::after {
+        display: none;
+    }
+
+    .btn-wrap .btn.save i {
+        font-size: 1.8rem;
+    }
+
+    .btn.closed {
+        width: 36px;
+        height: 36px;
+        background-size: 36px;
+    }
+
+    .pill-wrap ul {
+        gap: 6px;
+        font-size: 1.8rem;
+    }
+
+    .pill-wrap ul li {
+        min-width: 60px;
+        height: 40px;
+        font-size: var(--font-size4);
+        padding: 10px 16px;
+
+        & input {
+            padding: 0;
+        }
+
+        &.dot {
+            line-height: 36px;
+        }
+    }
+
+    .pill-wrap li.next .hint {
+        padding: 8px 14px;
+    }
+
+    .indicator .score {
+        gap: 4px;
+    }
+
+    .indicator .score>span {
+        height: 36px;
+        align-content: center;
+    }
+
+    .indicator .score>span span {
+        width: 22px;
+    }
+
+    .video-wrap .video::before {
+        display: none;
+    }
+
+    .btn.prev-q,
+    .btn.next-q {
+        width: 36px;
+        height: 36px;
+        transform: translateY(0);
+        top: 0;
+
+        & img {
+            width: 28px;
+            height: 28px;
+        }
+    }
+
+    .con:has(.next-q) {
+        padding-top: 48px;
+    }
+
+    .btn.prev-q {
+        transform: translateY(0) rotate(180deg);
+    }
+
+    .voca.step00.type02 .con.fill .question-wrap {
+        height: 50%;
+    }
+
+    .dimmed .popup.result>div:not(.effect) {
+        width: 240px;
+        height: 240px;
+    }
+
+    .dimmed .result img.chara {
+        width: 140px;
+        height: 140px;
+    }
+
+    .dimmed .popup.alert {
+        max-width: 320px;
+        padding: 24px;
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+
+    .dimmed .popup>.btn-wrap {
+        margin-top: 14px;
+    }
+
+    .wrap.intro {
+        padding: 15px;
+    }
+
+    .wrap.intro img {
+        max-height: inherit;
+        width: auto;
+        max-width: inherit;
+        height: 69px;
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+
+    .wrap.intro {
+        font-size: 1.6rem;
+    }
+
+    .wrap.intro .bottom {
+        margin-bottom: calc(30vw + 12px);
+    }
+
+    .wrap.intro .bottom>div:first-child>* {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .wrap.intro .bottom .progress-bar {
+        max-width: 100%;
+    }
+
+    .wrap.intro .inner::before {
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .wrap.intro .bottom .btn-wrap {
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        height: auto;
+    }
+
+    .wrap.intro .bottom .btn-wrap .btn {
+        width: 100%;
+        max-width: 100%;
+        padding: 16px;
+        font-size: 1.8rem;
+    }
+
+    .history .box .con .top .btn {
+        gap: 2px;
+        font-size: 1.3rem;
+
+        & img {
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    .history .box .con .top .title {
+        font-size: 1.3rem;
+    }
+
+    .history .box .con .top .title b {
+        font-size: 1.6rem;
+    }
+
+    .history .box .con .data-wrap {
+        gap: 8px;
+    }
+
+    .history .box .con .grade {
+        position: fixed;
+        z-index: 10;
+    }
+
+    .history .data {
+        flex-shrink: 0;
+        position: absolute;
+        top: 0;
+        left: 38px;
+        width: auto;
+        overflow: auto;
+        border-radius: 10px;
+    }
+
+    .history .data li {
+        flex-shrink: 0;
+        width: 24px;
+    }
+
+    .wrap.listening video+.btn.play::before {
+        width: 32px;
+        height: 32px;
+    }
+
+    .audio-range {
+        width: 240px;
+        height: 240px;
+        padding: 6px;
+    }
+
+    .audio .timer .flex span:first-child {
+        width: 58px;
+    }
+
+    .audio .timer .status {
+        padding: 6px 12px;
+        font-size: 1.4rem;
+    }
+
+    .audio .timer {
+        font-size: 2rem;
+    }
+
+    .question-wrap {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .question-wrap li {
+        width: 100%;
+    }
+
+    .question-wrap li button.white {
+        border-radius: 10px;
+        font-size: 1.6rem;
+    }
+
+    .rel-scroll ul {
+        gap: 6px;
+    }
+
+    .rel-scroll ul li button {
+        padding: 18px;
+        font-size: 1.6rem;
+    }
+
+    .result .box {
+        padding: 15px;
+        padding-top: 0;
+    }
+
+    .result .box>div.flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .result .box h3 img {
+        height: 26px;
+    }
+
+    .result .box .list-wrap {
+        height: 100%;
+    }
+
+    .result .box:has(.data-wrap) .list-wrap {
+        width: 100%;
+        max-width: inherit;
+        max-width: inherit;
+        height: auto;
+    }
+
+    .result .box .list-wrap>div {
+        height: 100%;
+    }
+
+    .result .box:has(.data-wrap) .list-wrap>div {
+        height: auto;
+    }
+
+    .result .box .list-wrap>div ul {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .result .box:has(.data-wrap) .list-wrap>div ul {
+        position: static;
+        gap: 4px;
+        width: 100%;
+        height: auto;
+        min-height: inherit;
+    }
+
+    .result .box .list-wrap>div ul li {
+        display: flex;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    .result .box .list-wrap>div ul li p {
+        font-size: var(--font-size3);
+    }
+
+    .result .box .data-wrap {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .result .box .data-wrap :where(th, td).num {
+        width: 20px;
+    }
+
+    .result .box .score {
+        gap: 8px;
+        margin-top: 24px;
+        margin-bottom: 0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .result .box .score dl {
+        justify-content: center;
+        gap: 8px;
+        font-size: var(--font-size4);
+    }
+
+    .result .box .score dl dt {
+        font-size: var(--font-size2);
+    }
+
+    .result .box>.btn-wrap .btn {
+        font-size: var(--font-size4);
+        max-width: inherit;
+    }
+
+    .result .box .data-wrap.row {
+        flex-direction: column;
+    }
+
+    .result .box .data-wrap.row>div {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .result .box .data-wrap.row img {
+        max-width: 84px;
+    }
+
+    .listening .con:has(.pill-wrap) {
+        justify-content: flex-start;
+    }
+
+    .listening.step04.type02 .pill-wrap:not(.answer) ul li span {
+        font-size: var(--font-size4);
+    }
+
+    .listening.step02.type02 .question-wrap .blank {
+        border-bottom: 3px solid var(--color-font);
+    }
+
+    .listening.step02.type02 .answer-wrap {
+        flex-direction: column;
+    }
+
+    .listening.step02.type02 .answer-wrap .btn {
+        border-radius: 10px;
+        padding: 30px 16px;
+        font-size: var(--font-size4-5);
+    }
+
+    .listening.step03 .con.fill {
+        gap: var(--gap);
+    }
+
+    .listening.step03 .video-wrap {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .listening.step03 .pill-wrap.bg {
+        height: auto;
+        padding: 8px;
+    }
+
+    .listening .step04 .con:has(.video-wrap) {
+        padding-top: 46px;
+    }
+
+    .listening.step04 .pill-wrap {
+        height: 100%;
+    }
+
+    .listening.step04 .pill-wrap ul {
+        margin: 0;
+        align-content: center;
+    }
+
+    .lestening .step04+.dimmed .alert::before {
+        top: -100px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .lestening .step04+.dimmed .alert::after {
+        top: -80px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .listening.step04+.dimmed .alert::before {
+        width: 200px;
+        height: 100px;
+        top: -100px;
+    }
+
+    .listening.step04+.dimmed .alert::after {
+        width: 120px;
+        height: 120px;
+        top: -60px;
+    }
+
+    .result.listening .box .data-wrap .table-wrap{
+        position: relative;
+        height: 100%;
+    }
+
+    .result.listening .box .data-wrap .table-wrap table{
+        height: 100%;
+    }
+
+    .speaking.step01 .video {
+        height: auto;
+    }
+
+    .speaking .indicator .score>span span {
+        width: auto;
+    }
+
+    .speaking .btn-wrap .rec-wrap .btn.rec.show .text p {
+        font-size: 1.4rem;
+    }
+
+    .speaking .btn-wrap .rec-wrap .btn .text .time {
+        font-size: 1.3rem;
+        height: 13px;
+    }
+
+    .speaking:has(.video) .scroll-script .script,
+    .speaking:has(.video) .scroll-script .script:has(li:nth-child(5)) {
+        padding: 0;
+    }
+
+    .speaking .box .recording-wrap:has(.next-q){
+        padding: 0;
+    }
+
+    .speaking .btn-wrap .pass {
+        position: static;
+        transform: translate(0);
+    }
+
+    .btn-wrap:has(.rec-wrap) .btn.next {
+        position: static;
+        transform: translate(0);
+        margin-left: auto;
+    }
+
+    .speaking .video-wrap {
+        flex-direction: column;
+    }
+
+    .speaking .dictionary .closed {
+        display: none;
+    }
+
+    .speaking .scroll-script {
+        height: auto;
+        font-size: var(--font-size4);
+    }
+
+    .speaking .scroll-script ul>li {
+        position: static;
+        margin-bottom: 12px;
+        flex-direction: row;
+        gap: 2px;
+        margin-bottom: 6px;
+    }
+
+    .speaking .video video+.btn.play::before {
+        width: 36px;
+        height: 36px;
+    }
+
+    .speaking .btn.audio {
+        width: 36px;
+        height: 36px;
+        margin-top: 36px;
+    }
+
+    .speaking.step01 .dictionary {
+        bottom: 0%;
+        left: 0%;
+        max-width: inherit;
+        max-height: inherit;
+        width: 100%;
+        height: 96px;
+        padding: 8px;
+        border-radius: 6px;
+        font-size: 1.4rem;
+        z-index: 0;
+    }
+
+    .speaking.step01 .dictionary>p {
+        margin-bottom: 6px;
+    }
+
+    .speaking.step01 .dictionary .word {
+        font-size: 1.6rem;
+    }
+
+    .speaking.step01 .dictionary .small {
+        font-size: 1.4rem;
+    }
+
+    .speaking.step01 .dictionary ul li span:first-child {
+        font-size: 1.3rem;
+    }
+
+    .speaking.step02 .recording-wrap {
+        flex-direction: column;
+    }
+
+    .speaking.step02 .wave-wrap {
+        height: 80px;
+    }
+
+    .speaking.step02 .wave-wrap .wave span {
+        max-height: 80px;
+    }
+
+    .speaking.step02 .speaking-score>div:first-child{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+
+    .speaking.step02 .speaking-score>div:first-child p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .speaking.step02 .speaking-score>div p.error{
+        height: auto;
+        padding: 8px 0;
+    }
+
+    .speaking.step02 .scroll-script .script {
+        top: calc(var(--padding) + 36px);
+        height: calc(100% - (var(--padding)*2) - 36px);
+    }
+
+    .speaking.step02 .abs-score {
+        transform: translateX(-50%);
+        left: 50%;
+        right: inherit;
+        width: 100%;
+    }
+
+    .speaking.step02 .abs-score div {
+        width: 100%;
+    }
+
+    .speaking.step02 .video+.scroll-script>ul li {
+        align-items: flex-start;
+    }
+
+    .speaking.step02 .speaking-score {
+        display: block;
+        width: calc(100% - (var(--padding)) * 2);
+        font-size: 1.6rem;
+    }
+
+    .speaking.step02 .speaking-score>div p{
+        align-content: center;
+    }
+
+    .speaking.step02 .speaking-score>div p.num {
+        font-size: 2.8rem;
+    }
+
+    .speaking.step02 .speaking-score>div,
+    .speaking.step02 .speaking-score>ul {
+        flex-shrink: 1;
+        width: 100%;
+        height: auto;
+    }
+
+    .speaking.step02 .recording-wrap>div.video {
+        flex-shrink: 0;
+        height: 40%;
+    }
+
+    .speaking.step02 .recording-wrap>div .script {
+        font-size: var(--font-size4);
+    }
+
+    .speaking.step02 .speaking-score ul {
+        display: flex;
+        gap: 10px;
+    }
+
+    .speaking.step02 .speaking-score ul li {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 0;
+        padding: 16px;
+        &::before{
+            width: 84px;
+            height: 84px;
+        }
+        &::after{
+            width: 76px;
+            height: 76px;
+        }
+    }
+
+    .speaking.step04 .box .con.bottom .btn-wrap {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .speaking.step04 .video-wrap {
+        flex-direction: column-reverse;
+    }
+
+    .speaking.step04 .video.rec {
+        width: 100%;
+    }
+
+    .speaking.step04 .video.rec::before {
+        display: none;
+    }
+
+    .speaking.step04 .video-wrap .video {
+        height: auto;
+    }
+
+    .speaking.step04 .video-wrap .video video {
+        position: relative;
+    }
+
+    .speaking.result .box h4 {
+        width: auto;
+        text-align: left;
+    }
+
+    .speaking.result .box .data-wrap {
+        flex-direction: column;
+    }
+
+    .speaking.result .box .data-wrap>div {
+        align-items: center;
+        justify-content: space-around;
+        gap: var(--gap);
+        height: auto;
+        border: none;
+
+        &:nth-child(2) {
+            margin: 36px 0;
+            padding: 36px 4px;
+            border: none;
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+        }
+    }
+
+    .speaking.result .box .data-wrap>div:first-child{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .speaking.result .box .data-wrap>div:first-child h4{
+        width: 100%;
+    }
+
+    .speaking.result .box .data-wrap>div:first-child .repeat-wrap{
+        width: calc((100% - var(--gap)) / 2);
+    }
+
+    .speaking.result .box .data-wrap>div:first-child .repeat-wrap .btn.white {
+        padding: 10px 20px;
+        font-size: var(--font-size3);
+    }
+
+    .speaking.result .box .data-wrap>div:first-child .lbs-score{
+        justify-content: center;
+        width: calc((100% - var(--gap)) / 2);
+        font-size: var(--font-size4);
+    }
+
+    .speaking.result .box .data-wrap .fill:has(.table-wrap) {
+        width: 100%;
+    }
+
+    .speaking.result .img-wrap {
+        position: absolute;
+        width: auto;
+        height: auto;
+        z-index: -1;
+    }
+
+    .speaking.result .img-wrap img {
+        display: none;
+    }
+
+    .speaking.result .box .list-wrap>div ul li {
+        padding: 8px;
+    }
+
+    .speaking.result .box .data-wrap .fill:has(.table-wrap),
+    .result .box .data-wrap .table-wrap,
+    .speaking.result .box .data-wrap .table-wrap table{
+        position: static;
+        height: auto;
+    }
+
+    .speaking.result .box .data-wrap .table-wrap table tbody {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: calc(var(--gap));
+        height: auto;
+    }
+
+    .speaking.result .box .data-wrap .table-wrap table tbody tr {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background-color: inherit;
+    }
+
+    .speaking.result .box .data-wrap .table-wrap table tbody tr th{
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+
+    .speaking.result .box .data-wrap .table-wrap tr td span:last-child {
+        width: 16px;
+    }
+
+    .speaking.result .box .data-wrap .table-wrap tr td .flex {
+        gap: 4px;
+        height: 4px;
+    }
+
+    .speaking.result .box .audio-wrap{
+        height: auto;
+    }
+
+    .speaking.result .box .audio-wrap .btn img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .speaking.result .box .audio-wrap .btn span {
+        font-size: 1.6rem;
+    }
+
+    .speaking.result .box .audio-wrap {
+        width: auto;
+    }
+
+    .speaking.result .box .audio-wrap .btn {
+        flex-direction: row;
+    }
+
+    .voca .bottom .btn-wrap .white {
+        gap: 4px;
+        height: 52px;
+        padding: 0 12px;
+        padding-left: 20px;
+        font-size: 1.8rem;
+    }
+
+    .voca .bottom .btn .num {
+        width: 28px;
+        height: 28px;
+        font-size: 1.4rem;
+    }
+
+    .voca label {
+        border-radius: 5px;
+    }
+
+    .voca label input {
+        height: 38px;
+        padding: 12px;
+        padding-right: 0;
+        font-size: 1.4rem;
+    }
+
+    .voca .send {
+        width: 38px;
+        height: 38px;
+    }
+
+    .voca .rel-scroll ul {
+        width: 100%;
+    }
+
+    .voca.result.speedVoca .result-box .color-box .grade {
+        font-size: 6.8rem;
+    }
+
+    .voca.step01.result .box .btn-wrap span {
+        margin-right: 20px;
+    }
+
+    .voca.step00 .question-wrap {
+        font-size: 3.2rem;
+    }
+
+    .voca.step00 .box .con.bottom .btn-wrap {
+        justify-content: flex-start;
+    }
+
+    .voca.step00.type02 .con.fill {
+        flex-direction: column;
+    }
+
+    .voca.step00.speedVoca .btn-wrap .flex {
+        width: 84px;
+        padding: 6px 16px;
+    }
+
+    .voca.result.speedVoca .deco {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .voca.result.speedVoca .deco .thumb {
+        display: none;
+    }
+
+    .voca.result.speedVoca .result-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .voca.result.speedVoca .result-box .color-box::after {
+        display: none;
+    }
+
+    .voca.step01 .card-wrap li {
+        width: calc((100% - (var(--gap) / 2)) / 2);
+        height: calc((100% - (var(--gap) / 2) * 7)/8);
+    }
+
+    .voca.step01 .card-wrap li .btn,
+    .voca.step01 .card-wrap li .btn .card-cover {
+        border-radius: 10px;
+    }
+
+    .voca.step01 .card-wrap li .btn span {
+        height: 28px;
+        line-height: 18.2px;
+        font-size: 1.4rem;
+    }
+
+    .voca.step01 .card-wrap li .btn .card-cover::before {
+        width: 36px;
+        height: 36px;
+    }
+
+    .voca.step01 .alert {
+        margin-top: 10px;
+        padding: 8px;
+        font-size: 1.4rem;
+    }
+
+    .voca.step02 .question-wrap .question-scroll {
+        padding-top: 36px;
+    }
+
+    .voca.step03.type03 .question-wrap {
+        flex-wrap: wrap;
+    }
+
+    .voca.step03:not(.type02) .con:has(.question-wrap),
+    .voca.step03 .con.fill {
+        flex-direction: column;
+    }
+
+    .voca.step03 .question-wrap .question-scroll,
+    .voca.step03.type03 .con.fill .question-wrap .question-scroll {
+        font-size: 3.4rem;
+    }
+
+    .voca.step03.type03 .con.fill .question-wrap .question-scroll>div+span {
+        font-size: 2.4rem;
+    }
+
+    .voca.step03 .con:has(.rel-scroll) .question-wrap {
+        height: 50%;
+    }
+
+    .voca.step03.type03 .rel-scroll {
+        height: 100%;
+    }
+
+    .voca.step03.type03 .rel-scroll ul {
+        flex-direction: column;
+    }
+
+    .voca.step03 .question-wrap .question-scroll .description {
+        margin-top: 0;
+        padding: 0;
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+    .voca.step03 .question-wrap .question-scroll .sentence {
+        font-size: 1.6rem;
+    }
+
+    .voca.step03 .rel-scroll ul {
+        width: 100%;
+    }
+
+    .voca.step05 .hint-area ul li {
+        margin-bottom: 12px;
+        font-size: 1.8rem;
+    }
+
+    .voca.step05 .hint-area span {
+        width: 110px;
+        font-size: 1.6rem;
+    }
+
+    .voca.step05 .indicator .info {
+        gap: 4px;
+    }
+
+    .voca.step05 .indicator .info p {
+        padding: 12px;
+    }
+
+    .voca.step05 .indicator .info img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .voca.step06 .contents-wrap {
+        overflow: auto;
+    }
+
+    .voca.step06 .contents-wrap .box {
+        height: 100%;
+    }
+
+    .voca.step06 .flex:has(.option) {
+        flex-direction: column;
+    }
+
+    .voca.step06 .question-wrap .input-wrap label input {
+        font-size: 1.6rem;
+    }
+
+    .voca.step06 .question-wrap .input-wrap label .send {
+        width: 38px;
+        height: 38px;
+    }
+
+    .voca.step06 .question-wrap .input-wrap label input {
+        padding: 12px 16px;
+    }
+
+    .voca.step06 .option {
+        width: 100%;
+        height: auto;
+    }
+
+    .voca.step06 .option .word-box div p.caption {
+        font-size: 1.3rem;
+    }
+
+    .voca.step06 .option .info,
+    .voca.step06 .option ul {
+        margin-bottom: 6px;
+    }
+
+    .voca.step06 .option ul {
+        height: 140px;
+    }
+
+    .voca.step06 .option ul li .btn {
+        padding: 10px;
+    }
+
+    .voca.step06 .option .word-box {
+        flex-direction: row;
+        align-items: flex-end;
+        height: auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script {
+        height: calc(100% - 20px);
+        margin-top: 20px;
+        padding: 0px 6px;
+        padding-top: 20px;
+        border-top: 1px solid var(--color-border);
+    }
+
+    .voca.step06 .option .word-box button {
+        width: 100px;
+        padding: 12px 20px;
+    }
+
+    .voca.step06 .option .word-box button,
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .btn-wrap .btn {
+        font-size: 1.6rem;
+    }
+
+    .other-type {
+        bottom: 80px;
+        left: 10px;
+    }
+
+    .dimmed .popup.ai-loarding::before {
+        content: "";
+        width: 139px;
+        height: 100px;
+    }
+
+    .dimmed .popup.ai-loarding::after {
+        height: 12px;
+    }
+
+    @keyframes flow {
+        0% {
+            top: -100px;
+        }
+
+        100% {
+            top: -90px;
+        }
+    }
+
+    .dimmed .popup.ai-loarding .spinor {
+        width: 38px;
+        height: 38px;
+
+        &::before {
+            width: 34px;
+            height: 34px;
+        }
+    }
+
+    .toastify{
+        width: 100%;
+        padding: 18px 12px;
+        &::before{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width : 580px) {
+    .box .con.bottom .btn-wrap {
+        flex-wrap: wrap;
+    }
+
+    .video-wrap,
+    .video-wrap .video .video-wrap .video video {
+        height: auto;
+    }
+
+    .con:has(.scroll-script) .video-wrap {
+        height: 100%;
+    }
+
+    .video-wrap .video video {
+        position: relative;
+    }
+
+    .btn-wrap .rec-wrap {
+        gap: 12px;
+        width: 100%;
+        margin: 24px 0;
+        order: 1;
+    }
+
+    .speaking .btn-wrap .pass {
+        order: 2;
+    }
+
+    .speaking .btn-wrap:has(.rec-wrap) {
+        height: auto;
+    }
+
+    .btn-wrap:has(.rec-wrap) .btn.next {
+        order: 3;
+    }
+
+    .btn-wrap .btn.save {
+        order: 2;
+    }
+
+    .voca.step03.type03 .con.fill .question-wrap .question-scroll {
+        font-size: 2.4rem;
+    }
+
+    .voca.step03.type03 .con.fill .question-wrap .question-scroll>div+span {
+        font-size: 1.6rem;
+    }
+
+    .voca.step05 .hint-area ul li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .voca.step05 .hint-area span {
+        width: 80px;
+        padding: 4px;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .wrap.intro .btn.closed {
+        width: 42px;
+        height: 42px;
+        background-size: 42px;
+    }
+
+    .dimmed .result img.chara {
+        width: 84px;
+        height: 84px;
+    }
+
+    .voca.step00 .question-wrap {
+        font-size: 2.4rem;
+    }
+
+    .ranking .table-wrap table tr {
+        gap: 10px;
+    }
+
+    .ranking .table-wrap table :where(th, td):where(:first-child, :last-child) {
+        flex-shrink: 0;
+        width: 54px;
+    }
+
+    .voca.wrap.intro img {
+        width: 280px;
+        height: auto;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .conv p,
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .system-info,
+    .voca.step06 .option ul li .btn {
+        font-size: 1.4rem;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .conv p {
+        padding: 6px 12px;
+        border-radius: 16px;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .conv.user {
+        gap: 4px;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .conv .thumb {
+        width: 30px;
+        height: 30px;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .btn-wrap {
+        flex-direction: column;
+    }
+
+    .voca.step06 .question-wrap .talk-wrap .scroll-script .btn-wrap .btn {
+        width: 100%;
+    }
+
+    .dimmed .popup.loarding {
+        font-size: 1.8rem;
+    }
+
+    .dimmed .popup.loarding .loarding-wrap {
+        width: 60px;
+        height: 60px;
+    }
+
+    .dimmed .popup.loarding .loarding-wrap span {
+        width: 30px;
+        height: 40px;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-height : 850px) {
+    .listening.step03 .pill-wrap.answer {
+        height: auto;
+    }
+
+    .speaking.step02 .recording-wrap {
+        gap: var(--gap);
+    }
+
+    .btn-wrap .rec-wrap {
+        margin: 12px 0;
+    }
+}
+
+@media screen and (max-height : 720px){
+    .listening.step02 .question-wrap li button{
+        padding: 0;
+    }
+}
+
+@media screen and (max-height : 620px) {
+    .audio-range {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-height : 550px) {
+    .audio-range {
+        width: 200px;
+        height: 200px;
+    }
+
+    .audio .timer {
+        font-size: var(--font-size4);
+    }
+
+    .audio .timer .flex span:first-child {
+        width: 52px;
+    }
+}

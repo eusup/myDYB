@@ -1,0 +1,268 @@
+<div class="pop_wrapper">
+    <div class="header">
+        <h1>김최선 tr, E6 - Startup - 셔틀 월수금 17:00 학급 옵션 설정</h1>
+    </div>
+    <div class="body">
+        <table class="list_tab">
+            <tbody>
+                <tr>
+                    <td data-type="hw_option_L"><a
+                            href="/Learningmanagement/Assignment/optionlists?sType=hw_option_L&amp;sClassCode=115567&amp;sLocation=">Listening</a>
+                    </td>
+                    <td data-type="hw_option_S" class="active"><a
+                            href="/Learningmanagement/Assignment/optionlists?sType=hw_option_S&amp;sClassCode=115567&amp;sLocation=">Speaking</a>
+                    </td>
+                    <td data-type="hw_option_V_new"><a
+                            href="/Learningmanagement/Assignment/optionlists?sType=hw_option_V_new&amp;vType=uccvoca&amp;sClassCode=115567&amp;sLocation=">Voca</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <div id="main">
+            <form name="theForm">
+
+                <input type="hidden" name="sLocation" id="sLocation" value="">
+                <input type="hidden" name="sApply" id="sApply" value="">
+
+                <input type="hidden" name="sClassCode" id="sClassCode" value="115567">
+                <input type="hidden" name="sTotalStep" id="sTotalStep">
+
+                <div class="float_wrap bor">
+                    <div class="conLeft" style="width:35%;">
+                        <table class="inputA step">
+                            <thead>
+                                <tr>
+                                    <th scope="col" colspan="2">기본설정</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>예습허용</td>
+                                    <td>
+                                        <select name="sel_common_prep_eum" id="sel_common_prep_eum">
+                                            <option value="1" selected="">예습제출 허용</option>
+                                            <option value="0">예습제출 미허용</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="conRight" style="width:65%;">
+                        <table class="inputA step">
+                            <thead>
+                                <tr>
+                                    <th scope="col">학습 단계별 설정</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="step" id="LS" value="LS" checked="checked">
+                                            <label for="LS" class="fixed">Step1 : Listen before Speaking (말하기 전 지문 전체
+                                                듣기)</label>
+                                        </span> Step1 : Listen before Speaking (말하기 전 지문 전체 듣기)
+                                        <table class="layout">
+                                            <colgroup>
+                                                <col style="width:100px;">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>반복횟수</td>
+                                                    <td>
+                                                        <select name="sel_ls_repeat_count" id="sel_ls_repeat_count">
+                                                            <option value="1" selected="">1회</option>
+                                                            <option value="2">2회</option>
+                                                            <option value="3">3회</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="step" id="SR" value="SR" checked="checked">
+                                            <label for="SR" class="active">Step2: Sentence Recording (문장 녹음하기)</label>
+                                        </span>Step2: Sentence Recording (문장 녹음하기)
+                                        <P>* 해당 단계를 선택하지 않으면, 획득점수 포인트 적립 및 History 그래프 확인이 불가합니다.</P>
+                                        <table class="layout">
+                                            <colgroup>
+                                                <col style="width:100px;">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>녹음횟수</td>
+                                                    <td>
+                                                        <select name="sel_sr_repeat_count" id="sel_sr_repeat_count">
+                                                            <option value="1" selected="">1회</option>
+                                                            <option value="2">2회</option>
+                                                            <option value="3">3회</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pass 사용 여부</td>
+                                                    <td>
+                                                        <span class="radio">
+                                                            <input type="radio" name="new_radio01" id="radio01" value="0">
+                                                            <label for="radio01">사용</label>
+                                                        </span>
+                                                        <span class="radio">
+                                                            <input type="radio" name="new_radio01" id="radio02" value="1" checked="checked">
+                                                            <label for="radio02" class="active">미사용</label>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PASS 갯수</td>
+                                                    <td>
+                                                        총 문장 수의
+                                                        <select name="sel_sr_pass" id="sel_sr_pass">
+                                                            <option value="50">50%</option>
+                                                            <option value="80">80%</option>
+                                                            <option value="100">100%</option>
+                                                        </select>
+                                                        <p>* Pass갯수를 '총 문장 수의 100%'로 설정하면 모든 문장을 pass할 수 있습니다.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>녹음통과 제한점수</td>
+                                                    <td>
+                                                        <select name="sel_sr_pass" id="sel_sr_pass">
+                                                            <option value="10">10점</option>
+                                                            <option value="20">20점</option>
+                                                            <option value="30">30점</option>
+                                                            <option value="40">40점</option>
+                                                            <option value="50">50점</option>
+                                                            <option value="60">60점</option>
+                                                            <option value="70">70점</option>
+                                                            <option value="80">80점</option>
+                                                            <option value="90">90점</option>
+                                                            <option value="100">100점</option>
+                                                        </select>
+                                                        <p>* 다음 문장 녹음으로 이동하기 위한 최소 점수를 설정할 수 있습니다.</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="step" id="SSP" value="SSP" checked="checked">
+                                            <label for="SSP" class="active">Step3: Shadow Practice (내용 녹음하기)</label>
+                                        </span>Step3: Shadow Practice (내용 녹음하기)
+                                        <table class="layout">
+                                            <colgroup>
+                                                <col style="width:100px;">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>녹음횟수</td>
+                                                    <td>
+                                                        <select name="sel_ssp_repeat_count" id="sel_ssp_repeat_count">
+                                                            <option value="1" selected="">1회</option>
+                                                            <option value="2">2회</option>
+                                                            <option value="3">3회</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>녹음추가시간</td>
+                                                    <td>
+                                                        <select name="sel_ssp_record_addtime"
+                                                            id="sel_ssp_record_addtime">
+                                                            <option value="60" selected="">60초</option>
+                                                            <option value="120">120초</option>
+                                                            <option value="180">180초</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr style="display:none;">
+                                                    <td>최소녹음시간</td>
+                                                    <td>
+                                                        <select name="sel_ssp_record_min" id="sel_ssp_record_min">
+                                                            <option value="1" selected="">사용</option>
+                                                            <option value="0">사용안함</option>
+                                                        </select><br>
+                                                        ※ 사용 : 학습 총 재생시간의 60% 이상 경과 시 [다음] 버튼 활성화<br>
+                                                        ※ 사용안함 : 학습 총 재생시간의 100% 경과 시 [다음] 버튼 활성화
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="checkbox">
+                                            <input type="checkbox" name="step" id="SSR" value="SSR" checked="checked">
+                                            <label for="SSR" class="active">Step4: Speaking Practice (내용 녹화하기)</label>
+                                        </span>Step4: Speaking Practice (내용 녹화하기)
+                                        <table class="layout">
+                                            <colgroup>
+                                                <col style="width:100px;">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>녹음추가시간</td>
+                                                    <td>
+                                                        <select name="sel_ssr_repeat_count" id="sel_ssr_repeat_count">
+                                                            <option value="60" selected="">60초</option>
+                                                            <option value="90">90초</option>
+                                                            <option value="120">120초</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="confirm" style="display: none;">선택하신 옵션설정을 적용하시겠습니까?</div>
+                <div id="confirm2" style="display: none;">
+                    <span class="radio">
+                        <input type="radio" name="applyType" id="applyType1" checked="checked" value="1">
+                        <label class="active">김최선 tr, E6 - Startup - 셔틀 월수금 17:00 학급만 옵션 변경</label>
+                    </span> <br>
+                    <span class="radio">
+                        <input type="radio" name="applyType" id="applyType2" value="2">
+                        <label>선택된 모든 숙제대상의 학급 옵션 변경</label>
+                    </span> <br>
+                    <span class="radio">
+                        <input type="radio" name="applyType" id="applyType2" value="3">
+                        <label>전체학급 옵션 변경</label>
+                    </span> &nbsp;
+                </div>
+
+            </form>
+
+            <script>
+                //var aOption = Array;
+            </script>
+        </div>
+
+        <div class="btn_wrap">
+            <div class="btn_right">
+                <button class="btn_blue ver1" name="regist" id="regist"><span>적용</span></button>
+                <button class="btn_blue ver2 close" name="cancel" id="cancel"><span>취소</span></button>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="close"><img alt="" src="/public_html/resource/images/common/btn_close.png"></a>
+</div>

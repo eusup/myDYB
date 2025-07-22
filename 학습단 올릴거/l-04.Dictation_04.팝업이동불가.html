@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학습단모듈</title>
+
+  <script src="./resource/js/jquery-3.3.1.min.js"></script>
+  <script src="./resource/js/style.js"></script>
+
+  <link rel="stylesheet" href="./resource/css/remixicon.css">
+  <link rel="stylesheet" href="./resource/css/module.css">
+  <link rel="stylesheet" href="./resource/css/style.css">
+  <link rel="stylesheet" href="./resource/css/responsive.css">
+</head>
+
+<body>
+  <div class="wrap listening step04 type2">
+    <div class="top">
+      <div class="con flex">
+        <div class="title">
+          <h2>Listening All</h2>
+          <p class="info-text">문장을 듣고 빈 칸에 들어갈 단어를 입력 한 후 ENTER를 눌러주세요.</p>
+        </div>
+        <div class="flex util">
+          <ul class="flex breadcurmb">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li class="act">4</li>
+            <li>5</li>
+          </ul>
+          <button class="btn closed">창 닫기</button>
+        </div>
+      </div>
+    </div>
+    <div class="contents-wrap">
+      <div class="box">
+        <div class="con">
+          <div class="flex indicator">
+            <div class="flex page">
+              <span>1</span>/<span>99</span>
+            </div>
+            <div class="flex score">
+              <span>제한점수 <span>100</span></span>
+              <span>획득점수 <span>30</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="con fill">
+          <div class="flex fill video-wrap">
+            <div class="video">
+              <video src="./resource/videos/test/testVidmp4.mp4"></video>
+            </div>
+          </div>
+          <div class="pill-wrap">
+            <ul class="flex">
+              <li class="correct">answer</li>
+              <li class="correct">answer</li>
+              <li class="next">test test <span>alw***</span></li>
+              <li>test test test</li>
+              <li>test</li>
+              <li>test</li>
+              <li>test</li>
+              <li>test</li>
+              <li class="dot">.</li>
+            </ul>
+          </div>
+          <button class="btn icn-only prev-q">
+            <img src="./resource/images/icn-arrow.svg" alt="이전문제">
+          </button>
+          <button class="btn icn-only next-q">
+            <img src="./resource/images/icn-arrow.svg" alt="다음문제">
+          </button>
+        </div>
+        <div class="con bottom">
+          <div class="btn-wrap">
+            <div class="flex speed">
+              <button class="btn icn-only">
+                <img src="./resource/images/icn-arrow.svg" alt="#">
+              </button>
+              <span>1.0x</span>
+              <button class="btn icn-only">
+                <img src="./resource/images/icn-arrow.svg" alt="#">
+              </button>
+            </div>
+            <button class="btn white icn-only play"></button>
+            <a href="./l-05.Redictation_01.기본.html" class="btn icn next">NEXT<img src="./resource/images/icn-arrow.svg" alt="#"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dimmed act">
+    <div class="popup alert">
+      <p>획득점수가 통과 제한 점수보다 낮아<br>다음 스텝으로 이동할 수 없습니다.</p>
+      <div class="text">
+        <div class="flex">
+          <div class="btn prev-q">
+            <img src="./resource/images/icn-arrow.svg" alt="이전">
+          </div>
+          <div class="btn next-q">
+            <img src="./resource/images/icn-arrow.svg" alt="다음">
+          </div>
+        </div>
+        <span>버튼으로 이동하여 틀린 단어를 수정해주세요.</span>
+      </div>
+      <div class="btn-wrap">
+        <button class="btn">OK</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
